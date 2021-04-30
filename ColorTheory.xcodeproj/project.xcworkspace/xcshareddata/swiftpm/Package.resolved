@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GlassMorphismic",
+        "repositoryURL": "https://github.com/taichi-dm/GlassMorphismic",
+        "state": {
+          "branch": "main",
+          "revision": "d48a825af6839f7b1ae35b2cf5f2ded6806519c9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506C7B11262F94E600FD80BE /* CoolColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506C7B10262F94E600FD80BE /* CoolColors.swift */; };
+		506C7B14262F9CBC00FD80BE /* ComplementaryColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506C7B13262F9CBC00FD80BE /* ComplementaryColors.swift */; };
+		506C7B17262FA28D00FD80BE /* AnalogousColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506C7B16262FA28D00FD80BE /* AnalogousColors.swift */; };
+		506C7B1A262FA8AC00FD80BE /* TriadicColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506C7B19262FA8AC00FD80BE /* TriadicColors.swift */; };
+		506C7B1D262FB73C00FD80BE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506C7B1C262FB73C00FD80BE /* InfoView.swift */; };
+		50A84310262627B100652788 /* ColorTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A8430F262627B100652788 /* ColorTheoryApp.swift */; };
+		50A84312262627B100652788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A84311262627B100652788 /* ContentView.swift */; };
+		50A84314262627B400652788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A84313262627B400652788 /* Assets.xcassets */; };
+		50A84317262627B400652788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A84316262627B400652788 /* Preview Assets.xcassets */; };
+		50A843232626280C00652788 /* PrimaryLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A843222626280C00652788 /* PrimaryLevel.swift */; };
+		50B6F650262CFCB000B444A8 /* click_003.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50B6F64D262CFCB000B444A8 /* click_003.wav */; };
+		50B6F651262CFCB000B444A8 /* click_002.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50B6F64E262CFCB000B444A8 /* click_002.wav */; };
+		50B6F652262CFCB000B444A8 /* impactMining_002.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50B6F64F262CFCB000B444A8 /* impactMining_002.wav */; };
+		50B6F656262D14E500B444A8 /* SecondaryColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6F655262D14E500B444A8 /* SecondaryColors.swift */; };
+		50B6F65E262D1FFD00B444A8 /* TertiaryColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6F65D262D1FFD00B444A8 /* TertiaryColors.swift */; };
+		50B6F661262D247900B444A8 /* WarmColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6F660262D247900B444A8 /* WarmColors.swift */; };
+		50BCCDCE2626DEC100E14342 /* GlassMorphismic in Frameworks */ = {isa = PBXBuildFile; productRef = 50BCCDCD2626DEC100E14342 /* GlassMorphismic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		506C7B10262F94E600FD80BE /* CoolColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolColors.swift; sourceTree = "<group>"; };
+		506C7B13262F9CBC00FD80BE /* ComplementaryColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplementaryColors.swift; sourceTree = "<group>"; };
+		506C7B16262FA28D00FD80BE /* AnalogousColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogousColors.swift; sourceTree = "<group>"; };
+		506C7B19262FA8AC00FD80BE /* TriadicColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriadicColors.swift; sourceTree = "<group>"; };
+		506C7B1C262FB73C00FD80BE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		50A8430C262627B100652788 /* ColorTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A8430F262627B100652788 /* ColorTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheoryApp.swift; sourceTree = "<group>"; };
+		50A84311262627B100652788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A84313262627B400652788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A84316262627B400652788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50A84318262627B400652788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A843222626280C00652788 /* PrimaryLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryLevel.swift; sourceTree = "<group>"; };
+		50B6F64D262CFCB000B444A8 /* click_003.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click_003.wav; sourceTree = "<group>"; };
+		50B6F64E262CFCB000B444A8 /* click_002.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click_002.wav; sourceTree = "<group>"; };
+		50B6F64F262CFCB000B444A8 /* impactMining_002.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = impactMining_002.wav; sourceTree = "<group>"; };
+		50B6F655262D14E500B444A8 /* SecondaryColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryColors.swift; sourceTree = "<group>"; };
+		50B6F65D262D1FFD00B444A8 /* TertiaryColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TertiaryColors.swift; sourceTree = "<group>"; };
+		50B6F660262D247900B444A8 /* WarmColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A84309262627B100652788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BCCDCE2626DEC100E14342 /* GlassMorphismic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A84303262627B100652788 = {
+			isa = PBXGroup;
+			children = (
+				50A8430E262627B100652788 /* ColorTheory */,
+				50A8430D262627B100652788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A8430D262627B100652788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A8430C262627B100652788 /* ColorTheory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A8430E262627B100652788 /* ColorTheory */ = {
+			isa = PBXGroup;
+			children = (
+				50A8430F262627B100652788 /* ColorTheoryApp.swift */,
+				50A84311262627B100652788 /* ContentView.swift */,
+				50A84313262627B400652788 /* Assets.xcassets */,
+				50A84318262627B400652788 /* Info.plist */,
+				50B6F64E262CFCB000B444A8 /* click_002.wav */,
+				50B6F64D262CFCB000B444A8 /* click_003.wav */,
+				50B6F64F262CFCB000B444A8 /* impactMining_002.wav */,
+				50A84315262627B400652788 /* Preview Content */,
+				50A843222626280C00652788 /* PrimaryLevel.swift */,
+				50B6F655262D14E500B444A8 /* SecondaryColors.swift */,
+				50B6F65D262D1FFD00B444A8 /* TertiaryColors.swift */,
+				50B6F660262D247900B444A8 /* WarmColors.swift */,
+				506C7B10262F94E600FD80BE /* CoolColors.swift */,
+				506C7B13262F9CBC00FD80BE /* ComplementaryColors.swift */,
+				506C7B16262FA28D00FD80BE /* AnalogousColors.swift */,
+				506C7B19262FA8AC00FD80BE /* TriadicColors.swift */,
+				506C7B1C262FB73C00FD80BE /* InfoView.swift */,
+			);
+			path = ColorTheory;
+			sourceTree = "<group>";
+		};
+		50A84315262627B400652788 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50A84316262627B400652788 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A8430B262627B100652788 /* ColorTheory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A8431B262627B400652788 /* Build configuration list for PBXNativeTarget "ColorTheory" */;
+			buildPhases = (
+				50A84308262627B100652788 /* Sources */,
+				50A84309262627B100652788 /* Frameworks */,
+				50A8430A262627B100652788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorTheory;
+			packageProductDependencies = (
+				50BCCDCD2626DEC100E14342 /* GlassMorphismic */,
+			);
+			productName = ColorTheory;
+			productReference = 50A8430C262627B100652788 /* ColorTheory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A84304262627B100652788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					50A8430B262627B100652788 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 50A84307262627B100652788 /* Build configuration list for PBXProject "ColorTheory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A84303262627B100652788;
+			packageReferences = (
+				50BCCDCC2626DEC100E14342 /* XCRemoteSwiftPackageReference "GlassMorphismic" */,
+			);
+			productRefGroup = 50A8430D262627B100652788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A8430B262627B100652788 /* ColorTheory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A8430A262627B100652788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B6F651262CFCB000B444A8 /* click_002.wav in Resources */,
+				50A84317262627B400652788 /* Preview Assets.xcassets in Resources */,
+				50B6F650262CFCB000B444A8 /* click_003.wav in Resources */,
+				50B6F652262CFCB000B444A8 /* impactMining_002.wav in Resources */,
+				50A84314262627B400652788 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A84308262627B100652788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A84312262627B100652788 /* ContentView.swift in Sources */,
+				506C7B1D262FB73C00FD80BE /* InfoView.swift in Sources */,
+				50B6F661262D247900B444A8 /* WarmColors.swift in Sources */,
+				506C7B11262F94E600FD80BE /* CoolColors.swift in Sources */,
+				50A84310262627B100652788 /* ColorTheoryApp.swift in Sources */,
+				506C7B1A262FA8AC00FD80BE /* TriadicColors.swift in Sources */,
+				506C7B17262FA28D00FD80BE /* AnalogousColors.swift in Sources */,
+				50A843232626280C00652788 /* PrimaryLevel.swift in Sources */,
+				50B6F65E262D1FFD00B444A8 /* TertiaryColors.swift in Sources */,
+				506C7B14262F9CBC00FD80BE /* ComplementaryColors.swift in Sources */,
+				50B6F656262D14E500B444A8 /* SecondaryColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50A84319262627B400652788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A8431A262627B400652788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A8431C262627B400652788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorTheory/Preview Content\"";
+				DEVELOPMENT_TEAM = SLSQWYAHLF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ColorTheory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MageshSridhar.ColorTheory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A8431D262627B400652788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorTheory/Preview Content\"";
+				DEVELOPMENT_TEAM = SLSQWYAHLF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ColorTheory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MageshSridhar.ColorTheory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A84307262627B100652788 /* Build configuration list for PBXProject "ColorTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A84319262627B400652788 /* Debug */,
+				50A8431A262627B400652788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A8431B262627B400652788 /* Build configuration list for PBXNativeTarget "ColorTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A8431C262627B400652788 /* Debug */,
+				50A8431D262627B400652788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		50BCCDCC2626DEC100E14342 /* XCRemoteSwiftPackageReference "GlassMorphismic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/taichi-dm/GlassMorphismic";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50BCCDCD2626DEC100E14342 /* GlassMorphismic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50BCCDCC2626DEC100E14342 /* XCRemoteSwiftPackageReference "GlassMorphismic" */;
+			productName = GlassMorphismic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 50A84304262627B100652788 /* Project object */;
+}
